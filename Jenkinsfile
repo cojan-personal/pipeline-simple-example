@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Building..";ls -l /'
+                sh 'echo "Building now also in GitHub Actions..";ls -l /'
             }
         }
         stage('Test') {
